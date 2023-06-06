@@ -2,8 +2,8 @@
   <Layout>
 
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="maggie profile" src="~/images/maggie_head.jpg" width="135" />
-
+    <!-- <g-image alt="maggie profile" src="~/images/maggie_head.jpg" width="135" /> -->
+    <img src="https://i.imgur.com/a3kMeZM.jpg" image alt="profile picture" width="170"/>
     <h1>Hello, world!</h1>
 
     <p>
@@ -29,5 +29,9 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+
+body {
+  background-color: lightblue;
 }
 </style>

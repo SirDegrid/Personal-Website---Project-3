@@ -12,8 +12,22 @@
       </nav>
     </header>
     <slot/>
+
+    <b-button>CLICK ME!!!</b-button>
+
   </div>
 </template>
+
+<script>
+import { BButton } from 'bootstrap-vue'
+
+export default {
+  components: {
+    BButton
+  }
+}
+
+</script>
 
 <static-query>
 query {
